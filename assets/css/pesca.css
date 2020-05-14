@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+
+
+.home_contacto{
+height: 55px;
+}
+.home_idiomas{
+	margin-left: 0;
+
+}
+
+.home_idiomas select{
+	border-left: 0;
+	border-top: 0;
+	border-bottom: 0;
+	border-right: 1px solid #D8D8D8;
+color: #4E4E4E;	
+background-color: #e6e6e600;
+width: 75px;
+height: 55px;
+
+}
+
+.home_tel{
+	border-left:  1px solid  #D8D8D8
+}
+.home_tel label{
+	color: #4E4E4E;
+	font-family: "Raleway-Regular", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+
+}
+
+.home_tel p{
+	margin-top: -5px;
+	font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #00C6D6;
+
+}
+.section_banner{
+	margin-bottom: 160px;
+}
+
+.tour_banner{
+	width: 100%;
+}
+
+.tour_titulo{
+	text-align: center;
+	margin-top: -150px;
+	color: #fff;
+}
+
+.tour_logo{
+	height: 70px;
+	margin-left: 55px;
+}
+
+.navbar{
+	height: 65px;
+	 border-top:1px solid #D8D8D8;
+	border-bottom: 1px solid#D8D8D8;
+	
+	}
+
+.navbar-light .navbar-nav .nav-link {
+
+font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+color: #4E4E4E;
+}
+
+.contenedor{
+	width: 92%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tour_grid{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	
+}
+
+.tour_grid h2{
+	font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+	color: #4E4E4E;
+}
+
+.tour_grid h5{
+	font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+	color: #4E4E4E;
+}
+
+.tour_grid p{
+	font-family:"Raleway-Regular";
+}
+
+.home_footer h5{
+	font-weight: bold;
+	color: #19CEC5;
+}
+
+.home_footer p{
+	font-family:"Raleway-Regular";
+	color: #414141;	
+}
+
+.footer_social a{
+	text-decoration: none;
+	color:#95989A;
+}
+
+.footer_social li{margin:0 21px 10px 0;font-size:30px;}
+.footer_social li.facebook a:hover{color:#3b5998;}
+.footer_social li.twitter a:hover{color:#55acee;}
+.footer_social li.instagram a:hover{color:#0976b4;}
+.footer_social li.youtube a:hover{color:#b31217;}
+.footer_social li.pinterest a:hover{color:#cb2027;}
+.footer_social li.googleplus a:hover{color:#dd4b39;}
+
+.footer_social{
+	margin-left:-30px;
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	display: -webkit-flex;	
+}
+
+.footer_politicas{
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	text-align: right;
+}
+
+.footer_menus li{
+	height: 35px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.footer_menus li a{
+	text-decoration: none;
+	color:#4E4E4E;
+}
+
+.footer_menus li.menu_item a:hover{
+ color: #19CEC5;
+}
+
+.footer_certificado{
+	height: 140px;
+	width: 160px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo_aquaworld{
+	/*display: block;*/
+	width: 265px;
+	height: 120px;
+}
+
+.card-text p{
+
+	font-size: 16px;
+}
+
+.card-text b{
+	font-family:"Raleway-Bold";
+	font-size: 32px;
+	color: #19CEC5;
+}
+
+.card-text a{
+	font-family:"Raleway-Bold";
+	margin-left: 100px;
+}
+
+.tour_footer h5{
+	font-weight: bold;
+	color: #19CEC5;
+}
+
+.footer_politicas{
+	display:flex;
+	justify-content: flex-end;
+}
+.footer_terminos{
+	 
+	margin-right:20px;
+}
+
+.footer_terminos a{
+text-decoration:none;
+	 color: #414141;
+}
+
+.footer_politicas a{
+	text-decoration:none;
+	 color: #414141;
+}
+
+.btn{
+ border: 2px  solid #19CEC5;
+ text-transform:uppercase;
+ color: #19CEC5;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #00C6D6 0%, #31D7B6 51%, #00C6D6 100%)}
+.btn-grad:hover { background-position: right center;  }

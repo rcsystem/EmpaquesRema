@@ -1,0 +1,35 @@
+
+RewriteOptions inherit
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE] 
+RewriteEngine on
+<ifmodule mod_expires.c>
+ ExpiresActive On
+ ExpiresDefault A3600
+ <filesmatch ".(jpg|JPG|gif|GIF|png|css|ico|js)$">
+  ExpiresDefault "access plus 7 day"
+ </filesmatch>
+</ifmodule>
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^empaquesrema\.com\.mx$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.empaquesrema\.com\.mx$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/empaquesrema\.com\.mx\/" [R=301,L]
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+RewriteCond %{HTTP_HOST} !^empaquesrema\.com\.mx$ [NC]
+RewriteRule ^(.*)$ http://empaquesrema.com.mx/$1 [R=301,L]

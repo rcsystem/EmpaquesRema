@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+
+.contacto{
+	display: flex;
+}
+
+
+.llamanos{
+	width: 175px;
+	height: 45px;
+	border: 1px  solid #dbd2d275;
+	float: right;
+	font-family: "Mystery Quest", cursive;
+	font-size: 100%;
+	color: #fff;
+	
+}
+
+.transparent{
+	width: 125px;
+	height: 45px;
+background-color: #e6e6e600;	
+color: #fff;
+text-align: center;
+}
+.logo{
+	 
+	width:180px; 
+	height: 40px;
+	margin-left:55px;
+}
+
+.hero{
+	
+	background-color: #e6e6e600;
+	font-size: 15px;
+
+	a{
+		background: #fff;
+		&:hover{
+			background:lighten( #000, 10%);
+		}
+	}
+}
+
+.nav-link a {color:#fff !important; }
+.top-bar{
+	 border: 1px  solid #dbd2d275;
+}
+
+.top-bar, .top-bar ul {
+    background-color:  #e6e6e600;
+
+}
+
+.hero{
+	width: 100%;
+	height: 750px;
+	background: url('../images/home.png') no-repeat 50% 50% fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	   background-size: cover; 
+}
+
+.marina{
+	width: 60%;
+	height: 620px;
+	margin-top: -200px;
+	margin-left: 160px;
+}
+
+.hero .caption{
+
+	margin-top  : 140px;
+	margin-left : auto;
+    margin-right: auto;
+	
+}
+
+.caption{
+	width: 550px;
+	height: 500px;
+	margin-left : auto;
+    margin-right: auto;
+}
+
+.caption a{
+	margin-left: 200px;
+	margin-right: auto;
+}
+
+
+.hero .caption h2.title{
+	font-family: "Raleway-Regular", Helvetica, Arial, sans-serif;
+	font-size: 42px;
+	color: #fff;
+	/*text-transform: uppercase;*/
+	line-height: 40px;
+}
+
+h1.sub_title{
+	font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+	font-size: 84px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.tour{
+	margin-top: 70px;
+ p{
+	color: #212529;
+	font-family: "Raleway-Regular", Helvetica, Arial, sans-serif;
+}
+
+.tour h2{
+	font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+	color: #848484;
+}
+
+.pesca{
+	margin-top:40px;
+	    margin-left: 25px;
+}
+.pesca h2{
+	color:#fff;
+}
+.pesca img{
+	    margin: 0 auto 0 auto;
+    width: 97%;
+    height: 550px
+}
+.experiencia{
+	margin-left: auto;
+	margin-top:-250px;
+	width: 35%;
+	height: 35%
+}
+
+.pesca .experiencia h2,p{
+	color: #fff;
+	}
+
+.buceo{
+	float: right;
+}
+
+.btn{
+ border: 1px  solid #19CEC5;
+}
+.btn {color: #19CEC5; font-weight: bold;}
+.btn-p {border: 1px  solid #fff; color: #fff; font-weight: bold;}
+
+
+.btn-grad {color:#fff; background-image: linear-gradient(to right, #00C6D6 0%, #31D7B6 51%, #00C6D6 100%)}
+.btn-grad:hover { background-position: right center; color:#fff; }
+
+.footer{
+	margin-top: 40px;
+}
+.footer h5{
+
+	color: #19CEC5;
+}
+.logo_footer img{
+	display: block;
+	width: 420px;
+	height: 430px;
+}
+
+
+
+
+}

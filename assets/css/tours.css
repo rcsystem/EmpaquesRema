@@ -1,0 +1,584 @@
+html {
+    /* Adjust font size */
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    /* Font varient */
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+    /* Smoothing */
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+html, body {
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #414141;
+}
+
+.home_contacto {
+    height: 55px;
+}
+
+.home_idiomas {
+    margin-left: 0;
+
+}
+
+.home_idiomas select {
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 1px solid #D8D8D8;
+    color: #4E4E4E;
+    background-color: #e6e6e600;
+    width: 75px;
+    height: 55px;
+
+}
+
+.home_tel {
+    border-left: 1px solid #D8D8D8
+}
+
+.home_tel label {
+    color: #4E4E4E;
+
+    font-size: 14px;
+
+}
+
+.home_tel p {
+    margin-top: -5px;
+    font-size: 16px;
+    color: #00C6D6;
+
+}
+
+.section_banner {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tour_banner {
+    width: 100%;
+}
+
+.tour_titulo {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.tour_titulo h1{
+    font-weight: bold;
+}
+
+.tour_logo {
+    height: 70px;
+    margin-left: 55px;
+}
+
+.navbar {
+    height: 65px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+    color: #4E4E4E;
+}
+
+.contenedor {
+    margin: 30px 0;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tour_grid {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+}
+
+.tour_grid h2 {
+    font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+    color: #4E4E4E;
+}
+
+.tour_grid h5 {
+    font-family: "Raleway-Bold", Helvetica, Arial, sans-serif;
+    color: #4E4E4E;
+}
+
+.tour_grid p {
+    font-family: "Raleway-Regular";
+}
+
+.home_footer h5 {
+    font-weight: bold;
+    color: #19CEC5;
+}
+
+.home_footer p {
+    font-family: "Raleway-Regular";
+    color: #414141;
+}
+
+.footer_social a {
+    text-decoration: none;
+    color: #95989A;
+}
+
+.footer_social li {
+    margin: 0 21px 10px 0;
+    font-size: 30px;
+}
+
+.footer_social li.facebook a:hover {
+    color: #3b5998;
+}
+
+.footer_social li.twitter a:hover {
+    color: #55acee;
+}
+
+.footer_social li.instagram a:hover {
+    color: #0976b4;
+}
+
+.footer_social li.youtube a:hover {
+    color: #b31217;
+}
+
+.footer_social li.pinterest a:hover {
+    color: #cb2027;
+}
+
+.footer_social li.googleplus a:hover {
+    color: #dd4b39;
+}
+
+.footer_social {
+    margin-left: -30px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.footer_politicas {
+    /*border: 1px solid red;*/
+    text-decoration: none;
+    text-align: right;
+}
+
+.footer_menus li {
+    height: 35px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.footer_menus li a {
+    text-decoration: none;
+    color: #4E4E4E;
+}
+
+.footer_menus li.menu_item a:hover {
+    color: #19CEC5;
+}
+
+.footer_certificado {
+    height: 140px;
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_politicas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_terminos {
+
+    margin-right: 20px;
+}
+
+.footer_terminos a {
+    text-decoration: none;
+    color: #414141;
+}
+
+.footer_politicas a {
+    text-decoration: none;
+    color: #414141;
+}
+
+
+.logo_aquaworld {
+    /*display: block;*/
+    width: 265px;
+    height: 120px;
+}
+
+.card-text p {
+    font-size: 16px;
+}
+
+.card-text b {
+    font-size: 32px;
+    color: #19CEC5;
+}
+
+.card-text strong {
+    font-weight: bold;
+    color: #19CEC5;
+}
+
+.card-text b i {
+    display: inline-block;
+    font-style: normal;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.reservacion .card-header .card-text {
+    color: #fff;
+    font-weight: bold;
+}
+
+.reservacion .card-header .card-text b {
+    color: #fff;
+}
+
+.reservacion .card-header .card-text strong {
+    font-size: 18px;
+}
+
+.card-text a {
+    color: #19CEC5;
+    text-transform: uppercase;
+    margin-left: 66px;
+    font-size: 14px;
+}
+
+.tour_footer h5 {
+    font-weight: bold;
+    color: #19CEC5;
+}
+
+.btn {
+    border: 2px solid #19CEC5;
+    text-transform: uppercase;
+    color: #19CEC5;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #00C6D6 0%, #31D7B6 51%, #00C6D6 100%)
+}
+
+.btn-grad:hover {
+    background-position: right center;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #00C6D6;
+    background-color: #fff;
+    border-color: transparent transparent #00C6D6;
+    border-bottom-width: 3px;
+}
+
+.nav-link {
+    color: #414141;
+}
+
+.tour-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #414141;
+}
+
+.tour-slider-item {
+    height: 350px !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.tour-descripcion {
+    padding: 25px 0;
+}
+
+.tour-collapse {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tour-rate {
+    margin-bottom: 1rem;
+}
+
+.tour-rate img {
+    width: 18px;
+}
+
+.tour-rate p {
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.card-header {
+    background: #1E436C !important;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header.collapsed {
+    background: #fff !important;
+    position: relative;
+}
+
+.card-header:after {
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    right: 15px;
+    content: " ";
+    top: 17px;
+    transform: rotate(-135deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-header.collapsed:after {
+    border-right: 2px solid #4a6e78;
+    border-bottom: 2px solid #4a6e78;
+    transform: rotate(45deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-header.collapsed > .tour-collapse {
+    color: #414141 !important;
+}
+
+#accordion .card {
+    border: none;
+    margin: 5px 0;
+}
+
+#accordion .card-header {
+    cursor: pointer;
+}
+
+.form-gray select {
+    background: #E5E5E5;
+}
+
+.form-gray input {
+    background: #E5E5E5;
+}
+.form-gray textarea {
+    background: #E5E5E5;
+}
+
+.reservacion label {
+    font-weight: bold;
+}
+
+.social_sidebar {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.social_sidebar p {
+    float: left;
+    display: inline-block;
+    vert-align: middle;
+}
+
+.social_sidebar a {
+    margin-top: 1.5rem;
+    display: inline-block;
+    vert-align: middle;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #414141;
+    margin-left: .5rem;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+
+.social_sidebar a:hover {
+    color: #19CEC5;
+}
+
+.ayuda .titulo {
+    font-weight: bold;
+}
+
+.ayuda i {
+    font-size: 25px;
+    color: #757575;
+    margin-right: 7px;
+}
+
+#collapseComent .rounded-circle {
+    width: 100%;
+    max-width: 60px;
+}
+#collapseComent h6{
+    font-weight: bold;
+}
+.media-body {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.leer-coment {
+    color: #00C6D6 !important;
+    font-weight: bold;
+    margin-left: 10px
+}
+
+.certificaciones .logos{
+    padding: 5rem 0;
+}
+.certificaciones .caption .card-img-overlay{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    padding: 1.25rem;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.certificaciones .caption .card-img-overlay .card-title{
+    font-weight: bold;
+}
+.caption-text{
+    font-weight: bold;
+    margin: 25px 0;
+}
+.certificaciones .caption .card-img-overlay a .btn {
+    border: 2px solid #fff;
+}
+
+.card-img-top{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    max-height: 240px;
+    height: 240px;
+}
+
+.cert{
+    box-shadow: none;
+    transition: box-shadow .5s;
+}
+
+.cert:hover{
+    -webkit-box-shadow: 1px 8px 36px -1px rgba(181,177,181,1);
+    -moz-box-shadow: 1px 8px 36px -1px rgba(181,177,181,1);
+    box-shadow: 1px 8px 36px -1px rgba(181,177,181,1);
+}
+
+.text-aqua{
+    color: #00C6D6;
+}
+
+/*botones*/
+.boton {
+    letter-spacing: .5px;
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem 0;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 0.25rem;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none !important;
+}
+.boton__aqua__fill{
+    color: #fff;
+    border: 1px solid #19CEC5;
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD 51%, #4CB8C4 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+.boton__aqua__fill:hover,
+.boton__aqua__fill:active {
+    color: #fff;
+    background-position: right center;
+}
+
+.boton__aqua__border{
+    color: #19CEC5;
+    border: 1px solid #19CEC5;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    transition: 0.8s;
+}
+.boton__aqua__border:hover,
+.boton__aqua__border:active {
+    color: #fff;
+    background-image:  linear-gradient(to right, #4CB8C4 0%, #3CD3AD 51%, #4CB8C4 100%) !important;
+}
+.boton__single{
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+.boton__single:hover{
+    color: #fff;
+}
+.boton__lg{
+    max-width: 343px;
+}
+.boton__g{
+    max-width: 179px;
+}
+.boton__m{
+    max-width: 179px;
+}
+.boton__s{
+    max-width: 108px;
+}
+@media screen and (max-width: 767px) {
+    .contenedor{
+        width: 95%;
+    }
+    .boton{
+        width: 100% !important;
+        margin-top: 15px;
+    }
+}
